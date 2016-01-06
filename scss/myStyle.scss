@@ -4,17 +4,19 @@ body{
 	background-color:#E1E1E1;
 	font-family: 'Raleway', sans-serif;
 }
-
 .contentContainer{
 	width:60%;
 	margin:0 auto;
 }
 
+// =====INDEX.HTML=====
+// ===HEADER===
 #mainHeader{
 	background-color:#4F5AA7;
 	width:100%;
 	height:180px;
 }
+// ===NAV===
 #mainNav{
 	width:100%;
 	height:50px;
@@ -25,5 +27,30 @@ ul{
 
 	li{
 		flex:1
+	}
+}
+// ===MAIN===
+#mainImage{
+
+}
+
+// ===FOOTER===
+
+
+
+
+
+// =====PRODUCTS.HTML=====
+
+// ===MAIN===
+.fadein{
+	position:relative;
+	width:720px;
+	height:480px;
+
+	img{
+		position:absolute;
+		left:0;
+		top:0;
 	}
 }

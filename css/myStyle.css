@@ -69,31 +69,44 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 8, ../scss/myStyle.scss */
+/* line 7, ../scss/myStyle.scss */
 .contentContainer {
   width: 60%;
   margin: 0 auto;
 }
 
-/* line 13, ../scss/myStyle.scss */
+/* line 14, ../scss/myStyle.scss */
 #mainHeader {
   background-color: #4F5AA7;
   width: 100%;
   height: 180px;
 }
 
-/* line 18, ../scss/myStyle.scss */
+/* line 20, ../scss/myStyle.scss */
 #mainNav {
   width: 100%;
   height: 50px;
   border-bottom: 1px solid black;
 }
 
-/* line 23, ../scss/myStyle.scss */
+/* line 25, ../scss/myStyle.scss */
 ul {
   dispaly: flex;
 }
-/* line 26, ../scss/myStyle.scss */
+/* line 28, ../scss/myStyle.scss */
 ul li {
   flex: 1;
+}
+
+/* line 46, ../scss/myStyle.scss */
+.fadein {
+  position: relative;
+  width: 720px;
+  height: 480px;
+}
+/* line 51, ../scss/myStyle.scss */
+.fadein img {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
